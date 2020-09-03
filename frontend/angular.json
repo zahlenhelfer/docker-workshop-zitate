@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ZitateApp"
+    }
+  },
+  "defaultProject": "ZitateApp",
+  "cli": {
+    "analytics": false
+  }
 }
