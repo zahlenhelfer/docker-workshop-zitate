@@ -1,6 +1,6 @@
-FROM node:10 AS ui-build
+FROM node:12 AS ui-build
 RUN npm install -g @angular/cli
-RUN git clone https://github.com/dcsfuerth/docker-workshop-zitate.git
+RUN git clone https://github.com/zahlenhelfer/docker-workshop-zitate.git
 WORKDIR /docker-workshop-zitate/frontend
 RUN npm install --silent && ng build --prod
 
